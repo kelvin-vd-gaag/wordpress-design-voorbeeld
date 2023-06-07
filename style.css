@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: lightgray;
+}
+
+nav ul {
+    display: flex;
+    gap: 4em;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul a {
+    color: #d34242;
+    text-decoration: none;
+    font-size: 2em;
+    text-shadow: 0 0 8px rgba(255, 42, 42, 0.9)
+}
+
+header {
+    background: url("store-banner.png");
+    /*background-repeat: no-repeat;*/
+    background-size: 100% 100%;
+
+    min-height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .brand-name {
+    color: #29ABE2;
+    font-size: 8em;
+}
+
+header .header-title {
+    font-size: 8em;
+    color: white;
+}
+
+.intro-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-text p {
+    max-width: 65ch;
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.content-blog {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10em;
+}
+
+.content-blog p {
+    line-height: 1.8;
+    width: 65ch;
+    text-align: justify;
+}
+#canvas{
+    position: absolute;
+    top: 0;
+}
